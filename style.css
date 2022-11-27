@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica, sans-serif, Arial;
+}
+
+.header {
+  min-width: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+#header-title {
+  font-size: x-large;
+  color: white;
+  padding: 1rem;
+  margin: 0.5em;
+  border-radius: 0.5rem;
+  background: linear-gradient(#27c3ea, #6dd5ed);
+}
+.flexParent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.createdElements {
+  display: flex;
+  justify-content: center;
+}
+
+.inputBox {
+  min-width: 20vw;
+  max-width: 30vw;
+  padding: 1rem;
+  background-color: #27c3ea;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+/* Add items submit button */
+
+#item-submit {
+  margin: 1rem 0rem;
+  padding: 0.5rem 1.5rem;
+  color: black;
+  border: white;
+  border-radius: 0.5rem;
+}
+
+#item-submit:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Input text field */
+#item {
+  max-width: 25vw;
+  min-width: 20vw;
+  padding: 0.5rem;
+  border: white;
+  border-radius: 0.5rem;
+}
+
+.filterItems {
+  min-width: 20vw;
+  max-width: 30vw;
+  padding: 1rem;
+  background-color: #27c3ea;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.form-control {
+  max-width: 23vw;
+  border: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+/* delete button */
+
+.delete {
+  float: right;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.delete:hover {
+  color: white;
+  background-color: black;
+}
+
+/* todo list item */
+
+.list-group-item {
+  color: white;
+  font-size: x-large;
+  float: left;
+  list-style-type: none;
+  word-wrap: break-word;
+  min-width: 30vw;
+  max-width: 20vw;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #27c3ea;
+}
+
+.list-group {
+  margin: 1rem;
+  padding: 0rem 1rem;
+}
+
+/* listHeading */
+
+.listHeading {
+  color: white;
+  padding: 1rem;
+  margin: 0.5em;
+  border-radius: 0.5rem;
+  background: linear-gradient(#27c3ea, #6dd5ed);
+}
+
+.listHeader {
+  min-width: 3rem;
+  display: flex;
+  justify-content: center;
+}
